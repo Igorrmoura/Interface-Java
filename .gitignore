@@ -1,0 +1,6 @@
+# Ignorar arquivos de metadados do Eclipse
+.metadata/
+*.snap
+*.markers
+*.syncinfo
+*.xmi
