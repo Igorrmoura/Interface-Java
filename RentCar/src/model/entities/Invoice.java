@@ -2,8 +2,8 @@ package model.entities;
 
 public class Invoice {
 	private Double basicPayment;
-
 	private Double tax;
+	
 	public Invoice() {
 		
 	}
@@ -25,7 +25,7 @@ public class Invoice {
 	}
 	
 	public Double getTotalPayment() {
-		return getBasicPayment() - getTax();
+		return getBasicPayment() + getTax();
 	}
 	
 }
